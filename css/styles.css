@@ -51,7 +51,7 @@ hr {
 }
 
 .btn {
-  background:    #D9D7F1;
+  background:    #FFCBCB;
   border-radius: 20px;
   padding:       10px 30px;
   color:         #ffffff;
@@ -60,7 +60,7 @@ hr {
 }
 
 .btn:hover {
-  background:   #726e9a;
+  background:   #ffb2b2;
 }
 
 .header {
@@ -175,7 +175,7 @@ li {
 }
 
 .contact-me {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .contact-message {
