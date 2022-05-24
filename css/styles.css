@@ -51,7 +51,7 @@ hr {
 }
 
 .btn {
-  background:    #FFCBCB;
+  background:    #8f8caf;
   border-radius: 20px;
   padding:       10px 30px;
   color:         #ffffff;
@@ -60,7 +60,7 @@ hr {
 }
 
 .btn:hover {
-  background:   #ffb2b2;
+  background:   #D9D7F1;
 }
 
 .header {
