@@ -199,6 +199,10 @@ li {
     font-size: 1.5rem;
   }
 
+  .header {
+    padding-top: 270px;
+  }
+
   .profilepic {
     width: 20%;
   }
@@ -263,4 +267,58 @@ li {
   .clara {
     width: 50%;
   }
+}
+
+
+@media screen and (max-width: 414px)  {
+
+  .header {
+      padding-top: 180px;
+  }
+
+  h1 {
+    font-size: 5rem;
+    padding: 5%;
+  }
+}
+
+
+@media screen and (max-width: 380px) {
+
+  .header {
+      padding-top: 150px;
+  }
+
+  h1 {
+    font-size: 5rem;
+    padding: 5%;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+
+ .header {
+     padding-top: 130px;
+ }
+
+ h1 {
+   font-size: 4.2rem;
+   padding: 5%;
+ }
+
+}
+
+@media screen and (max-width: 280px) {
+
+  .top-cloud {
+  top: 50px;
+  right: 155px;
+  }
+
+  .bottom-cloud {
+    bottom: 150px;
+    left: 123px;
+  }
+
 }
