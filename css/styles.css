@@ -267,6 +267,19 @@ li {
   .clara {
     width: 50%;
   }
+
+  .bottom-container {
+  padding: 5px 0 10px 0;
+  }
+
+  li {
+    height: 35px;
+}
+
+.copy {
+  line-height: 1;
+}
+
 }
 
 
