@@ -1,112 +1,381 @@
-<!-- Farbschema https://colorhunt.co/palette/d9d7f1fffddee7fbbeffcbcb -->
 <!DOCTYPE html>
-<html lang="de" dir="ltr">
+<html lang="de">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
-  <title>Clarissa Bilke</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <title>Clarissa Bilke - UX / UI Designer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Clarissa Bilke",
+      "url": "https://clarafalldevmonster.github.io/Clarissa-Bilke-UX-Design/",
+      "image": "https://media.licdn.com/dms/image/v2/D4E03AQHnVPpq8Q19pA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707898984596?e=1749081600&v=beta&t=W_XQ94lzpIh9KOgBFeHjWIiDUH73Etn-2qBpQhCZOFU",
+      "jobTitle": ["UX/UI Designerin", "Frontend-Entwicklerin"],
+      "sameAs": [
+        "https://www.linkedin.com/in/clarissa-bilke-808876263"
+      ]
+    }
+    </script>
 </head>
 
 <body>
-  <div class="header">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud">
-    <h1>I'm Clara.</h1>
-    <h2 class="programmer">a programmer.</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
-    <img class="mountain" src="images/mountain.png" alt="mountain">
-  </div>
 
-    <div class="profile">
-      <br>
-      <br>
-      <br>
-      <br>
-      <img class="profilepic" src="images/profilepic2.png" alt="Profilepic">
-      <h2>Hello</h2>
-      <p class="intro">I am a fullstack web developer and<br>
-          I <img class="heart" src="images/heart.png"> coding, nature, photography and art.</p>
-    </div>
+  <!-- Nav -->
 
-    <hr>
+  <div class="navigation">
+    <a href="index.html">
+      <img aria-hidden="true" alt="logo" src="icon/logoWhite.svg" class="logo" />
+    </a>
+    <button id="menuButton" class="menu-button">
+      <img aria-hidden="true" alt="menu-icon" src="icon/menuWhite.svg" />
+    </button>
+  </div> 
 
-    <div class="skills">
-      <h2>My Skills</h2>
-      <div class="web">
-        <img class="web-img" src="images/web.png" alt="Web">
-        <h3>Webdesign and developing</h3>
-        <p>Als gelernte Mediengestalterin verfüge ich bereits über ein breit gefächertes Wissen im Bereich Medien- und Webdesign. Anfang 2022 begann ich eine Weiterbildung zur Fullstack-Entwicklerin,
-        um damit meine Kenntnisse im Bereich Webentwicklung zu vertiefen und zu erweitern. Programmieren ist meine größte Leidenschaft und ich träume Nachts davon ;)</p>
-      </div>
+  <!-- Hero Section -->
 
-      <div class="photo">
-        <img class="photo-img" src="images/photo.png" alt="Camera">
-        <h3>Photography</h3>
-        <p>Team Canon! <br> Die Fotografie ist seit mehr als 10 Jahren eines meiner größten Hobbys. Am liebsten fotografiere ich in Kombination mit Tagesausflügen/Wandern die Natur (Pflanzen, Landschaften, wilde Tiere)
-          und auch gerne Menschen. Da man bei diesem Hobby nicht immer um die Bildbearbeitung wie z.B. Retusche, Bildmodifikation oder Composings drum rum kommt, habe ich eine Menge Erfahrung im Umgang
-          mit Adobe Photoshop, Lightroom, Luminar etc. </p>
-      </div>
-
-      <div class="video">
-        <img class="video-img" src="images/video.png" alt="Video">
-        <h3>Videography</h3>
-        <p>Videoschnitt macht Spaß! Für private Zwecke und Social Media Plattformen habe ich schon eine Menge Videocontent erstellt, geschnitten und bearbeitet.
-          Dabei handelte es sich z.B. eine Taufe, Geburtstage oder diverse Kurzvideos für Instagram und co.</p>
-      </div>
-
-      <div class="fashion">
-        <img class="fashion-img" src="images/fashion.png" alt="Mannequin">
-        <h3>Fashiondesign</h3>
-        <p>Latex! Es glänzt, es ist ästhetisch, es ist sexy und es ist das Material, mit dem ich gerne arbeite. <br>
-           Seit 2013 designe und fertige ich Latexmode an.
-           Ich kann hier meiner Kreativität freien Lauf lassen. </p>
-      </div>
-
-      <div class="paint">
-        <img class="paint-img" src="images/paint.png" alt="Paint">
-        <h3>Painting</h3>
-        <p>Wenn noch Zeit bleibt, male ich gern mit Acryl auf Leinwände oder zeichne Portraits mit Bleistift. Ich mag den kreativen Prozess des Malens/Zeichnens.</p>
+  <div class="hero-section">
+    <div class="main-contentHeroSection">
+      <div class="subheadline">CLARISSA BILKE</div>
+      <h1 class="headline1">Website- and <br>
+        UI/UX <span class="highlightBlack">designer</span></h1>
+      <div class="buttons-hero">
+        <a href="projects/projects.html" class="btn-primary">VIEW PROJECTS</a>
+        <a href="#aboutme" class="btn-secondary">READ ABOUT ME</a>
       </div>
     </div>
-
-    <hr>
-
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Wenn du auch verrückt bist.</h3>
-      <p class="contact-message">Ich freue ich auf deine Nachricht :)</p>
-      <a class="btn" href="clarissa.bilke93@gmx.de">CONTACT ME</a>
+    <div id="menu" class="side-menu">
+      <button id="closeButton" class="close-button">
+        <span aria-hidden="true">✕</span>
+      </button>
+      <div class="menu-links">
+        <a href="projects/projects.html" class="menu-link">Projects</a>
+        <a href="#aboutme" class="menu-link">About Me</a>
+        <a href="#myskills" class="menu-link">Skills</a>
+        <a href="#contact" class="menu-link">Contact</a>
+      </div>
     </div>
   </div>
-  <br>
 
+              <!-- SCROLL DOWN BUTTON -->
+              <button id="scrollDownButton" class="scroll-down-button">
+                <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 19l-7-7h14l-7 7z" />
+                </svg>
+            </button>
+        </div>
 
-    <img class="clara" src="images/clara.gif">
+  <!-- My Work Section -->
+  <div class="myWork-section">
+    <div class="main-contentMyWork">
+      <div class="headline">
+        <h1 class="headline1">My Work<span class="highlightPink">.</span></h1>
+      </div>
+      <p class="mainTextWhite">
+        Hier finden Sie eine Auswahl meiner Projekte. Jedes davon reflektiert meinen Ansatz, durch kreatives und
+        funktionales Design die Benutzererfahrung zu verbessern.
+      </p>
+      <div class="projectBoxes">
+        <a href="project2/project2.html" class="project">
+          <img src="img/sakura.png" alt="Webdesign Projekt SAKURA Sushi-Lieferservice"
+            class="project-image" />
+          <div class="overlay"></div>
+          <div class="project-info">
+            <h3>Webdesign <br> Projekt SAKURA</h3>
+            <p>Sushi Restaurant in Leipzig</p>
+          </div>
+        </a>
+        <a href="project4/project4.html" class="project">
+          <img src="img/movex.png" alt="Webdesign Projekt Movex"
+            class="project-image" />
+          <div class="overlay"></div>
+          <div class="project-info">
+            <h3>Webdesign <br> Projekt MOVEX</h3>
+            <p>Porsche Reisen in Mallorca</p>
+          </div>
+        </a>
+        <a href="project1/project1.html" class="project">
+          <img src="img/a&a.png" alt="Webdesign Projekt Art & Ambiente Luxury Interior"
+            class="project-image" />
+          <div class="overlay"></div>
+          <div class="project-info">
+            <h3>Webdesign Projekt <br> Art & Ambiente</h3>
+            <p>Luxury Interior & Design</p>
+          </div>
+        </a>
+      </div>
 
-
-  <div class="bottom-container">
-    <ul>
-    <li>
-      <a class="footer-link" href="https://www.instagram.com/clara_fallll/"><img src="images/instagram.png"> Instagram</a>
-    </li>
-    <li>
-    <a class="footer-link" href="https://github.com/ClaraFallDevMonster"><img src="images/github.png"> GitHub</a>
-    </li>
-    <li>
-    <a class="footer-link" href="https://www.linkedin.com/in/clarissa-bilke-808876263/"><img src="images/linkedin.png"> LinkedIn</a>
-    </li>
-    <li>
-    <a class="footer-link" href="https://twitter.com/"><img src="images/twitter.png"> Twitter</a>
-    </li>
-    </ul>
-    <p class="copy"> &copy2023 Clarissa Bilke</p>
+      <div class="button-container-view-all">
+        <a href="projects/projects.html" class="btn-pink">
+          View All Projects
+          <img src="icon/arrowRight.png" alt="Icon" class="btn-icon" />
+        </a>
+      </div>
+    </div>
   </div>
 
+  <!-- AboutMe section -->
+  <div class="aboutMe-section" id="aboutme">
+    <div class="main-contentAboutMe">
+      <img src="img/ClarissaBilke.png" alt="Clarissa Bilke" class="profile-image" />
+      <div class="text-content">
+        <h1 class="headline2">About Me<span class="highlightPink">.</span></h1>
+        <p class="mainTextBlack">
+          Als Webdesignerin mit einem Fuß in der Welt der Kreativität und dem anderen in der Welt der Technik, jongliere
+          ich täglich mit Farben, Formen und Code. Ich bringe kreative Lösungen in Projekte ein - Dabei liegen meine
+          Stärken in der Gestaltung funktionaler und ansprechender Webseiten. <br><br> In meiner Arbeit lege ich Wert
+          auf klare Kommunikation, Zuverlässigkeit und Qualität. Um auf dem aktuellen Stand zu bleiben, verfolge ich
+          aufmerksam die neuesten Entwicklungen im Webdesign und erweitere stetig meine Fähigkeiten. <br><br> Mein Ziel
+          ist es, durch innovative Ideen und technisches Know-how Projekte erfolgreich umzusetzen und dabei die
+          Bedürfnisse der Nutzer in den Mittelpunkt zu stellen.
+        </p>
+        <div class="buttons-aboutMe">
+          <a href="cv/Clarissa_Bilke_CV_Web.pdf" target="_blank" class="btn-download">
+            View CV
+            <img src="icon/arrowRight.png" alt="arrowRight Icon" />
+          </a>
+          <div class="social-links">
+            <a href="https://github.com/ClaraFallDevMonster" class="btn-social">
+              <img src="icon/github.png" alt="GitHub Icon">
+            </a>
+            <a href="https://www.linkedin.com/in/clarissa-bilke-808876263/" class="btn-social">
+              <img src="icon/linkedin.png" alt="LinkedIn Icon">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS section -->
+  <div class="skills-section" id="myskills">
+    <div class="skills-content">
+      <div class="skills-block">
+        <h1 class="headline1">My Softskills<span class="highlightPink">.</span></h1>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <img src="icon/teamwork.png" alt="Teamwork" class="skill-icon" />
+            <span class="skill-text">Teamwork</span>
+          </div>
+          <div class="skill-item">
+            <img src="icon/problemsolving.png" alt="Problem Solving" class="skill-icon" />
+            <span class="skill-text">Problem Solving</span>
+          </div>
+          <div class="skill-item">
+            <img src="icon/communication.png" alt="Communication" class="skill-icon" />
+            <span class="skill-text">Communication</span>
+          </div>
+          <div class="skill-item">
+            <img src="icon/projectmanagement.png" alt="Project Management" class="skill-icon" />
+            <span class="skill-text">Project Management</span>
+          </div>
+          <div class="skill-item">
+            <img src="icon/responsibility.png" alt="Responsibility" class="skill-icon" />
+            <span class="skill-text">Responsibility</span>
+          </div>
+          <div class="skill-item">
+            <img src="icon/creativity.png" alt="Creativity" class="skill-icon" />
+            <span class="skill-text">Creativity</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h1 class="headline1">My Technical Skills<span class="highlightPink">.</span></h1>
+        <div class="skills-list">
+          <div class="skill-tag">UI Design</div>
+          <div class="skill-tag">UX Design</div>
+          <div class="skill-tag">User Flows</div>
+          <div class="skill-tag">Prototyping</div>
+          <div class="skill-tag">Sketching</div>
+          <div class="skill-tag">Customer Service</div>
+          <div class="skill-tag">Graphic Design</div>
+          <div class="skill-tag">Goal Conversion</div>
+          <div class="skill-tag">Wireframing</div>
+          <div class="skill-tag">Sitemapping</div>
+          <div class="skill-tag">Coding</div>
+          <div class="skill-tag">CMS</div>
+          <div class="skill-tag">HTML</div>
+          <div class="skill-tag">CSS</div>
+          <div class="skill-tag">JavaScript</div>
+          <div class="skill-tag">Bootstrap</div>
+          <div class="skill-tag">AI Art</div>
+          <div class="skill-tag">AI Music</div>
+          <div class="skill-tag">AI Video</div>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h2 class="skills-title">Tools<span class="highlightPink">.</span></h2>
+        <div class="skills-list">
+          <div class="skill-tag">Figma</div>
+          <div class="skill-tag">Adobe Creative Cloud</div>
+          <div class="skill-tag">VS Code</div>
+          <div class="skill-tag">Github</div>
+          <div class="skill-tag">Git</div>
+          <div class="skill-tag">Jira</div>
+          <div class="skill-tag">Trello</div>
+          <div class="skill-tag">Awork</div>
+          <div class="skill-tag">Slack</div>
+          <div class="skill-tag">Confluence</div>
+          <div class="skill-tag">Microsoft 365</div>
+          <div class="skill-tag">Mac OS</div>
+        </div>
+      </div>
+
+      <div class="skills-block-last">
+        <h2 class="skills-title">Languages<span class="highlightPink">.</span></h2>
+        <div class="skills-list">
+          <div class="skill-tag">German</div>
+          <div class="skill-tag">English</div>
+          <div class="skill-tag">Dutch</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CUSTOMERS section -->
+  <div class="customers-section">
+    <div class="customers-content">
+      <h1 class="headline2">Customers<span class="highlightPink">.</span></h1>
+      <div class="logos-grid">
+        <div class="logo-item">
+          <img class="logo1" src="img/sakuraLogo.png" alt="Sakura Logo">
+        </div>
+        <div class="logo-item">
+          <img class="logo2" src="img/A&ALogoS.png" alt="A&A Logo">
+        </div>
+        <div class="logo-item">
+          <img class="logo3" src="img/movexLogo.png" alt="Movex Log3">
+        </div>
+        <div class="logo-item">
+          <img class="logo4" src="img/schumannLogo.png" alt="Schumann Logo">
+        </div>
+        <div class="logo-item">
+          <img class="logo5" src="img/musikschuleLogo.png" alt="MusikschuleLogo Logo">
+        </div>
+        <div class="logo-item">
+          <img class="logo6" src="img/dataNatureLogo.png" alt="DataNature Logo">
+        </div>
+        <div class="logo-item">
+          <img class="logo7" src="img/jobfabrikLogo.png" alt="Jobfabrik Logo">
+        </div>
+        <div class="logo-item">
+          <img class="logo8" src="img/jobcenterLogo.png" alt="Jobcenter Logo">
+        </div>
+        <div class="logo-item">
+          <img class="logo9" src="img/wolidayLogo.png" alt="Woliday Logo">
+        </div>
+        <div class="logo-item">
+          <img class="logo10" src="img/LAGLogo.png" alt="LAG Logo">
+        </div>
+        <!-- Weitere Logos hier -->
+      </div>
+      
+      <div class="slider-container-mobile">
+        <div class="slider-container-mobile">
+          <div class="slider-track">
+            <!-- 1. Durchlauf -->
+            <div class="slide"><img src="img/sakuraLogo.png" alt="Sakura Logo" /></div>
+            <div class="slide"><img src="img/A&ALogoS.png" alt="A&A Logo" /></div>
+            <div class="slide"><img src="img/movexLogo.png" alt="Movex Logo" /></div>
+            <div class="slide"><img src="img/schumannLogo.png" alt="Schumann Logo" /></div>
+            <div class="slide"><img src="img/musikschuleLogo.png" alt="Musikschule Logo" /></div>
+            <div class="slide"><img src="img/dataNatureLogo.png" alt="DataNature Logo" /></div>
+            <div class="slide"><img src="img/jobfabrikLogo.png" alt="Jobfabrik Logo" /></div>
+            <div class="slide"><img src="img/jobcenterLogo.png" alt="Jobcenter Logo" /></div>
+            <div class="slide"><img src="img/wolidayLogo.png" alt="Woliday Logo" /></div>
+            <div class="slide"><img src="img/LAGLogo.png" alt="LAG Logo" /></div>
+        
+            <!-- 2. Durchlauf für Endlosschleife -->
+            <div class="slide"><img src="img/sakuraLogo.png" alt="Sakura Logo" /></div>
+            <div class="slide"><img src="img/A&ALogoS.png" alt="A&A Logo" /></div>
+            <div class="slide"><img src="img/movexLogo.png" alt="Movex Logo" /></div>
+            <div class="slide"><img src="img/schumannLogo.png" alt="Schumann Logo" /></div>
+            <div class="slide"><img src="img/musikschuleLogo.png" alt="Musikschule Logo" /></div>
+            <div class="slide"><img src="img/dataNatureLogo.png" alt="DataNature Logo" /></div>
+            <div class="slide"><img src="img/jobfabrikLogo.png" alt="Jobfabrik Logo" /></div>
+            <div class="slide"><img src="img/jobcenterLogo.png" alt="Jobcenter Logo" /></div>
+            <div class="slide"><img src="img/wolidayLogo.png" alt="Woliday Logo" /></div>
+            <div class="slide"><img src="img/LAGLogo.png" alt="LAG Logo" /></div>
+          </div>
+        </div>
+          <!-- Weitere Logos hier -->
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- CONTACT section -->
+  <div class="contact-section" id="contact">
+    <div class="contact-content">
+      <h1 class="headline1">Contact<span class="highlightPink">.</span></h1>
+
+      <form class="contact-form" action="send_email.php" method="POST" onsubmit="return validateForm()">
+        <div class="form-group">
+          <input type="text" name="vorname" placeholder="Vorname" required>
+          <input type="text" name="nachname" placeholder="Nachname">
+        </div>
+        <div class="form-group">
+          <input type="text" name="telefon" placeholder="Telefon" required>
+          <input type="email" name="email" placeholder="E-Mail Adresse" required>
+        </div>
+        <div class="form-group">
+          <textarea name="nachricht" placeholder="Ihre Nachricht" required></textarea>
+        </div>
+        <div style="display: none;">
+          <input type="text" name="honeypot" value="">
+        </div>
+        <button type="submit" class="send-message">Send Message</button>
+      </form>
+      <p class="privacy-note">Durch das Klicken auf "Send Message" stimmen Sie den Nutzungsbedingungen und
+        Datenschutzrichtlinien zu.</p>
+    </div>
+  </div>
+
+  <!-- SCROLL UP BUTTON -->
+  <button id="scrollUpButton" class="scroll-up-button">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="white" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </svg>
+  </button>
+
+  <div class="footer">
+    <div class="footer-top">
+      <a href="index.html">
+      <img aria-hidden="true" alt="logo" src="icon/LogoWhiteFrei.png" class="footer-logo" />
+      </a>
+      <nav class="footer-menu">
+        <a href="projects/projects.html" class="footer-link">Projects</a>
+        <a href="#aboutme" class="footer-link">About Me</a>
+        <a href="#myskills" class="footer-link">Skills</a>
+        <a href="#contact" class="footer-link">Contact</a>
+      </nav>
+    </div>
+    <hr class="footer-divider">
+    <div class="footer-bottom">
+      <p class="footer-copyright">© 2025 Clarissa Bilke</p>
+      <div class="footer-links">
+        <a href="datenschutz/datenschutz.html" class="footer-link-secondary">Datenschutz</a>
+        <a href="impressum/impressum.html" class="footer-link-secondary">Impressum</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://github.com/ClaraFallDevMonster" class="btn-social-footer">
+          <img src="icon/githubWhite.png" alt="GitHub Icon">
+        </a>
+        <a href="https://www.linkedin.com/in/clarissa-bilke-808876263/" class="btn-social-footer">
+          <img src="icon/linkedinWhite.png" alt="LinkedIn Icon">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script> 
 </body>
 
 </html>
