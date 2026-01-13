@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const downloadBtn = document.getElementById("download-cv");
   if (downloadBtn) {
     downloadBtn.addEventListener("click", function () {
-      window.open("cv/Clarissa_Bilke_CV.pdf", "_blank");
+      window.open("cv/Clarissa_Bilke_CV_web.pdf", "_blank");
     });
   }
 
